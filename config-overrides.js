@@ -1,6 +1,4 @@
 const { alias, aliasJest, configPaths } = require('react-app-rewire-alias');
-const swcLoader = require('swc-loader');
-const aliasMap = configPaths('./tsconfig.paths.json');
 
 function addSwcLoader(config = {}) {
     config.module.rules.push({
