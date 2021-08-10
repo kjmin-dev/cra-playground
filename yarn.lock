@@ -1939,6 +1939,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@material-ui/icons@npm:^4.11.2":
+  version: 4.11.2
+  resolution: "@material-ui/icons@npm:4.11.2"
+  dependencies:
+    "@babel/runtime": ^7.4.4
+  peerDependencies:
+    "@material-ui/core": ^4.0.0
+    "@types/react": ^16.8.6 || ^17.0.0
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 0cd1d54b25a4237bd0cefd383d287911f721d4c4ac4fd7980370566b9927f3a9725e7a715042f7c65c87fa554173fbef5328de1d08e60eb996038f375ddf583a
+  languageName: node
+  linkType: hard
+
 "@material-ui/styles@npm:^4.11.4":
   version: 4.11.4
   resolution: "@material-ui/styles@npm:4.11.4"
@@ -3300,6 +3317,13 @@ __metadata:
   bin:
     acorn: bin/acorn
   checksum: 1860f23c2107c910c6177b7b7be71be350db9e1080d814493fae143ae37605189504152d1ba8743ba3178d0b37269ce1ffc42b101547fdc1827078f82671e407
+  languageName: node
+  linkType: hard
+
+"add@npm:^2.0.6":
+  version: 2.0.6
+  resolution: "add@npm:2.0.6"
+  checksum: e2d23d40494565dfed4acd65e478570c444db5ac6c053551ed429c39ea0f2c99d83df63e7befec936df601827d2254d06a2fb6f7dcfd2022e810b25eab818b8c
   languageName: node
   linkType: hard
 
@@ -4761,7 +4785,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clsx@npm:^1.0.4":
+"clsx@npm:^1.0.4, clsx@npm:^1.1.1":
   version: 1.1.1
   resolution: "clsx@npm:1.1.1"
   checksum: ff052650329773b9b245177305fc4c4dc3129f7b2be84af4f58dc5defa99538c61d4207be7419405a5f8f3d92007c954f4daba5a7b74e563d5de71c28c830063
@@ -5162,6 +5186,7 @@ __metadata:
   resolution: "cra-playground@workspace:."
   dependencies:
     "@material-ui/core": ^4.12.3
+    "@material-ui/icons": ^4.11.2
     "@swc/cli": ^0.1.46
     "@swc/core": ^1.2.75
     "@testing-library/jest-dom": ^5.14.1
@@ -5172,6 +5197,8 @@ __metadata:
     "@types/react": ^17.0.16
     "@types/react-dom": ^17.0.9
     "@types/react-router-dom": ^5.1.8
+    add: ^2.0.6
+    clsx: ^1.1.1
     cross-env: ^7.0.3
     preact: ^10.5.14
     react: ^17.0.2
@@ -5185,6 +5212,7 @@ __metadata:
     swr: ^0.5.6
     typescript: ^4.3.5
     web-vitals: ^2.1.0
+    yarn: ^1.22.11
   languageName: unknown
   linkType: soft
 
@@ -16118,6 +16146,16 @@ typescript@^4.3.5:
     y18n: ^4.0.0
     yargs-parser: ^18.1.2
   checksum: 40b974f508d8aed28598087720e086ecd32a5fd3e945e95ea4457da04ee9bdb8bdd17fd91acff36dc5b7f0595a735929c514c40c402416bbb87c03f6fb782373
+  languageName: node
+  linkType: hard
+
+"yarn@npm:^1.22.11":
+  version: 1.22.11
+  resolution: "yarn@npm:1.22.11"
+  bin:
+    yarn: ./bin/yarn.js
+    yarnpkg: ./bin/yarn.js
+  checksum: 315198d97a1bd31e8b2e78ba1c69a5243a96fe39bea078dfd8dc7d1fc1f4a2d4af0015feac9d7d419300fa30b670fd16e8b0ee43bcc0f9246305ecb5cf83d413
   languageName: node
   linkType: hard
 
